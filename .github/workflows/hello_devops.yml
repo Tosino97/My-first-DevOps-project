@@ -1,0 +1,13 @@
+name: Run Hello DeVops Script
+on:
+push:
+branches:
+  - devops-automation
+
+jobs:
+run-script:
+runs-on: ubuntu-latest
+steps:
+  - uses: actions/checkout@v3
+  - name: Run Python script
+run: python hello_devops.py
