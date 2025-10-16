@@ -1,0 +1,1 @@
+print ("Hello_DevOps! This script runs automatically")
